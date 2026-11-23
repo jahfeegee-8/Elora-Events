@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Elora Events — Kempton Park's premier full-service event planning, decoration, and catering company serving Johannesburg and Gauteng. Where Every Detail Blooms." />
+  <meta name="keywords" content="event planning Kempton Park, event decoration Johannesburg, catering Gauteng, Elora Events, weddings, corporate events, parties" />
+  <meta property="og:title" content="Elora Events | Where Every Detail Blooms" />
+  <meta property="og:description" content="Johannesburg's boutique full-service event company — planning, decoration, and catering under one roof." />
+  <meta property="og:image" content="assets/images/gallery-2.jpg" />
+  <title>Elora Events | Where Every Detail Blooms</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Great+Vibes&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════
+       UTILITY BAR
+  ═══════════════════════════════════════ -->
+  <div class="utility-bar" role="banner">
+    <div class="container">
+      <div class="utility-bar__left">
+        <a href="tel:+27780216190" aria-label="Call Elora Events">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+          +27 78 021 6190
+        </a>
+        <a href="mailto:info@eloraevents.co.za" class="hide-sm" aria-label="Email Elora Events">
+          <!-- TODO: replace with real email address when available -->
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6" style="fill:none;stroke:currentColor;stroke-width:2"/></svg>
+          info@eloraevents.co.za
+        </a>
+      </div>
+      <div class="utility-bar__right">
+        <a href="https://www.instagram.com/eloraeventsee" target="_blank" rel="noopener noreferrer" aria-label="Follow Elora Events on Instagram">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" style="stroke:white;stroke-width:2;stroke-linecap:round"/></svg>
+        </a>
+        <a href="https://wa.me/27780216190" target="_blank" rel="noopener noreferrer" aria-label="Chat with Elora Events on WhatsApp">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════ -->
+  <nav class="site-nav" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <!-- Logo -->
+      <a href="index.html" class="nav-logo" aria-label="Elora Events — Home">
+        <img src="assets/images/logo.jpg" alt="Elora Events logo" class="nav-logo__img" width="52" height="52" />
+        <div class="nav-logo__text">
+          <span class="brand-name">Elora <span>Events</span></span>
+          <span class="brand-tagline">Kempton Park · Gauteng</span>
+        </div>
+      </a>
+
+      <!-- Desktop links -->
+      <ul class="nav-links" role="list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="has-dropdown">
+          <a href="services.html" aria-haspopup="true" aria-expanded="false">Our Services</a>
+          <ul class="dropdown-menu" role="list" aria-label="Services submenu">
+            <li>
+              <a href="services.html#planning">
+                <span class="dd-icon">🗓</span>
+                Event Planning
+              </a>
+            </li>
+            <li>
+              <a href="services.html#decoration">
+                <span class="dd-icon">🌸</span>
+                Event Decoration
+              </a>
+            </li>
+            <li>
+              <a href="services.html#catering">
+                <span class="dd-icon">🍽</span>
+                Catering
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+      <!-- CTA button -->
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-primary btn-sm">Get a Quote</a>
+        <button class="hamburger" aria-label="Open mobile menu" aria-expanded="false" aria-controls="mobileNav" id="hamburgerBtn">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile nav drawer -->
+  <div class="mobile-nav" id="mobileNav" role="dialog" aria-label="Mobile navigation" aria-modal="true" tabindex="-1">
+    <nav>
+      <ul class="mobile-nav__links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li>
+          <a href="services.html">Our Services</a>
+          <ul class="mobile-sub" role="list">
+            <li><a href="services.html#planning">Event Planning</a></li>
+            <li><a href="services.html#decoration">Event Decoration</a></li>
+            <li><a href="services.html#catering">Catering</a></li>
+          </ul>
+        </li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-nav__footer">
+      <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+      <div class="mobile-nav__socials">
+        <a href="https://www.instagram.com/eloraeventsee" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" style="stroke:currentColor;stroke-width:2;stroke-linecap:round"/></svg>
+        </a>
+        <a href="https://wa.me/27780216190" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════
+       MAIN CONTENT
+  ═══════════════════════════════════════ -->
+  <main id="main-content">
+
+    <!-- ─── HERO ─── -->
+    <section class="hero" aria-label="Welcome to Elora Events">
+      <div class="hero__bg" role="img" aria-label="Beautifully decorated outdoor event setting"></div>
+      <div class="hero__overlay"></div>
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__eyebrow" aria-hidden="true">
+            <span>✦</span> Kempton Park, Johannesburg &nbsp;·&nbsp; <span>Gauteng</span>
+          </div>
+          <span class="hero__accent">Where Every Detail Blooms</span>
+          <h1>Crafting <em>Unforgettable</em><br>Moments, Together</h1>
+          <p class="hero__desc">
+            From intimate garden picnics to grand corporate galas — Elora Events handles every detail of your planning, decoration, and catering so you can simply celebrate.
+          </p>
+          <div class="hero__actions">
+            <a href="contact.html" class="btn btn-primary btn-lg" id="heroBookBtn">Book a Consultation</a>
+            <a href="gallery.html" class="btn btn-outline-white btn-lg" id="heroGalleryBtn">View Our Work</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        Scroll
+      </div>
+    </section>
+
+    <!-- ─── STATS BAR ─── -->
+    <section class="stats-bar" aria-label="Elora Events by the numbers">
+      <div class="container">
+        <div class="stat-item reveal">
+          <div class="stat-item__number" data-target="150" data-suffix="+">0+</div>
+          <div class="stat-item__label">Events Hosted</div>
+        </div>
+        <div class="stat-item reveal reveal-delay-1">
+          <div class="stat-item__number" data-target="98" data-suffix="%">0%</div>
+          <div class="stat-item__label">Happy Clients</div>
+        </div>
+        <div class="stat-item reveal reveal-delay-2">
+          <div class="stat-item__number" data-target="5" data-suffix="+">0+</div>
+          <div class="stat-item__label">Years Experience</div>
+        </div>
+        <div class="stat-item reveal reveal-delay-3">
+          <div class="stat-item__number" data-target="3" data-suffix="">0</div>
+          <div class="stat-item__label">Services in One Place</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── SERVICES OVERVIEW ─── -->
+    <section class="section" aria-labelledby="servicesHeading">
+      <div class="container">
+        <header class="section-header">
+          <div class="section-divider"><span>✦</span></div>
+          <div class="pill">What We Offer</div>
+          <h2 id="servicesHeading">One Company. Every Detail.</h2>
+          <p>We combine planning expertise, creative decoration, and exceptional catering into one seamless, stress-free experience — so your event day is exactly as you imagined.</p>
+        </header>
+
+        <div class="services-grid">
+          <!-- Card 1: Planning -->
+          <article class="service-card reveal" aria-labelledby="planningCardTitle">
+            <div class="service-card__icon-wrap">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+            </div>
+            <h3 id="planningCardTitle">Event Planning</h3>
+            <p>From concept to execution, we coordinate every moving part so your event runs flawlessly — on time, on budget, on brief.</p>
+            <a href="services.html#planning" class="btn btn-secondary">Learn More</a>
+          </article>
+
+          <!-- Card 2: Decoration -->
+          <article class="service-card reveal reveal-delay-1" aria-labelledby="decorCardTitle">
+            <div class="service-card__icon-wrap">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3 id="decorCardTitle">Event Decoration</h3>
+            <p>Transforming ordinary venues into extraordinary settings — bespoke themes, florals, draping, and lighting designed around your vision.</p>
+            <a href="services.html#decoration" class="btn btn-secondary" style="color:var(--color-green);border-color:var(--color-green);">Learn More</a>
+          </article>
+
+          <!-- Card 3: Catering -->
+          <article class="service-card reveal reveal-delay-2" aria-labelledby="cateringCardTitle">
+            <div class="service-card__icon-wrap">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/>
+              </svg>
+            </div>
+            <h3 id="cateringCardTitle">Catering</h3>
+            <p>Delicious menus crafted to your tastes — from cocktail canapés to plated dinners — served by our professional staffing team.</p>
+            <a href="services.html#catering" class="btn btn-secondary" style="color:#F97316;border-color:#F97316;">Learn More</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── ABOUT PREVIEW ─── -->
+    <section class="section about-preview" aria-labelledby="aboutPreviewHeading">
+      <div class="container">
+        <div class="about-preview__inner">
+          <!-- Images -->
+          <div class="about-preview__images reveal">
+            <div class="about-preview__img-main">
+              <img src="assets/images/gallery-2.jpg" alt="Beautifully styled outdoor table setting at an Elora Events picnic" loading="lazy" />
+            </div>
+            <div class="about-preview__img-secondary">
+              <img src="assets/images/gallery-3.jpg" alt="Elegant balloon arc and signage at an Elora Events celebration" loading="lazy" />
+            </div>
+          </div>
+
+          <!-- Text -->
+          <div class="about-preview__text reveal reveal-delay-2">
+            <div class="pill">Our Story</div>
+            <h2 id="aboutPreviewHeading">Gauteng's Boutique Events Studio</h2>
+            <p>
+              Based in Kempton Park, Johannesburg, Elora Events was built on one simple belief: your special moments deserve extraordinary care. We are a full-service events company offering planning, decoration, and catering under one roof — removing the stress of managing multiple vendors and giving you back the joy of your occasion.
+            </p>
+            <p>
+              Whether you're planning a wedding, a milestone birthday, a baby shower, or a corporate gathering across Gauteng, our team brings creativity, precision, and warmth to every single detail.
+            </p>
+
+            <div class="about-preview__badges">
+              <div class="about-badge">
+                <div class="about-badge__dot" style="background:var(--color-pink)"></div>
+                Full-Service Planning
+              </div>
+              <div class="about-badge">
+                <div class="about-badge__dot" style="background:var(--color-green)"></div>
+                Bespoke Decoration
+              </div>
+              <div class="about-badge">
+                <div class="about-badge__dot" style="background:#F97316"></div>
+                Professional Catering
+              </div>
+            </div>
+
+            <a href="about.html" class="btn btn-primary">Discover Our Story</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── GALLERY STRIP ─── -->
+    <section class="section gallery-strip" aria-labelledby="galleryStripHeading">
+      <div class="container">
+        <header class="section-header">
+          <div class="section-divider"><span>✦</span></div>
+          <div class="pill">Our Work</div>
+          <h2 id="galleryStripHeading">A Glimpse of the Magic</h2>
+          <p>Every event we create is unique. Browse a selection of our recent celebrations across Johannesburg and Gauteng.</p>
+        </header>
+
+        <div class="gallery-strip__grid">
+          <div class="gallery-strip__item reveal" style="min-height: 400px;">
+            <img src="assets/images/gallery-1.jpg" alt="Boho outdoor picnic table setting with champagne glasses and flowers" loading="lazy" />
+            <div class="gallery-strip__item__overlay"></div>
+          </div>
+          <div class="gallery-strip__item reveal reveal-delay-1">
+            <img src="assets/images/gallery-10.jpg" alt="Elegant floral centrepiece with white and blue roses on a mirror table runner" loading="lazy" />
+            <div class="gallery-strip__item__overlay"></div>
+          </div>
+          <div class="gallery-strip__item reveal reveal-delay-2">
+            <img src="assets/images/gallery-8.jpg" alt="Birthday balloon garland with chalkboard signage and custom cake" loading="lazy" />
+            <div class="gallery-strip__item__overlay"></div>
+          </div>
+          <div class="gallery-strip__item reveal reveal-delay-1">
+            <img src="assets/images/gallery-4.jpg" alt="Draped marquee event tent with elegant lighting" loading="lazy" />
+            <div class="gallery-strip__item__overlay"></div>
+          </div>
+          <div class="gallery-strip__item reveal reveal-delay-2">
+            <img src="assets/images/gallery-5.jpg" alt="Styled outdoor celebration with floral and decor arrangements" loading="lazy" />
+            <div class="gallery-strip__item__overlay"></div>
+          </div>
+        </div>
+
+        <div class="gallery-strip__cta reveal">
+          <a href="gallery.html" class="btn btn-secondary btn-lg" id="viewFullGalleryBtn">View Full Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── CTA BANNER ─── -->
+    <section class="cta-banner" aria-labelledby="ctaHeading">
+      <div class="container">
+        <div class="cta-banner__content reveal">
+          <span class="accent-script">Let's Create Something Beautiful</span>
+          <h2 id="ctaHeading">Ready to Plan Your Perfect Event?</h2>
+          <p>Get in touch today and let Elora Events bring your vision to life — from concept to celebration, we've got every detail covered.</p>
+          <div class="cta-banner__actions">
+            <a href="contact.html" class="btn btn-primary btn-lg" id="ctaContactBtn">Get a Free Quote</a>
+            <a href="https://wa.me/27780216190" target="_blank" rel="noopener noreferrer" class="btn btn-outline-white btn-lg" id="ctaWhatsAppBtn" aria-label="Chat on WhatsApp">
+              <svg viewBox="0 0 24 24" style="width:18px;height:18px;fill:currentColor;"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand column -->
+        <div class="footer-brand">
+          <div class="footer-brand__logo">
+            <img src="assets/images/logo.jpg" alt="Elora Events logo" class="footer-brand__logo-img" width="48" height="48" />
+            <div class="footer-brand__logo-text">
+              <div class="name">Elora <span>Events</span></div>
+              <div class="tag">Where Every Detail Blooms</div>
+            </div>
+          </div>
+          <p class="footer-brand__desc">
+            Kempton Park's boutique full-service events studio — bringing planning, decoration, and catering together for celebrations that truly shine across Johannesburg and Gauteng.
+          </p>
+          <div class="footer-socials">
+            <a href="https://www.instagram.com/eloraeventsee" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" style="stroke:currentColor;stroke-width:2;stroke-linecap:round"/></svg>
+            </a>
+            <a href="https://wa.me/27780216190" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick links -->
+        <div>
+          <h3 class="footer-col__title">Quick Links</h3>
+          <ul class="footer-links" role="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact column -->
+        <div>
+          <h3 class="footer-col__title">Get In Touch</h3>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Kempton Park, Johannesburg,<br>Gauteng, South Africa
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.65 3.38 2 2 0 0 1 3.62 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.54a16 16 0 0 0 6.29 6.29l.92-.92a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+27780216190">+27 78 021 6190</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <!-- TODO: replace with real email address when available -->
+            <a href="mailto:info@eloraevents.co.za">info@eloraevents.co.za</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            <a href="https://wa.me/27780216190" target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer bar -->
+      <div class="footer-bar">
+        <p>© <span class="footer-year"></span> Elora Events. All rights reserved.</p>
+        <div class="footer-bar__links">
+          <a href="contact.html">Contact</a>
+          <a href="gallery.html">Gallery</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/27780216190" class="wa-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+  </a>
+
+  <!-- Lightbox (shared) -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox" tabindex="-1">
+    <div class="lightbox__inner">
+      <img class="lightbox__img" src="" alt="Elora Events gallery image" />
+    </div>
+    <button class="lightbox__close" aria-label="Close lightbox">
+      <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <button class="lightbox__nav lightbox__prev" aria-label="Previous image">
+      <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <button class="lightbox__nav lightbox__next" aria-label="Next image">
+      <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
